@@ -1,24 +1,56 @@
-# Compiled class file
+# Java
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Maven / Gradle specific files
+target/
+build/
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.class
+*.iml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# C / C++ 
+# Compiled object files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Compiled binary files
+*.out
+*.exe
+
+# Debugging files
+*.dSYM/
+
+# Makefile / build files
+Makefile
+makefile
+CMakeLists.txt
+
+# IDE files
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# VS Code
+.vscode/
+
+# Other
+# OS generated files
+.DS_Store
+Thumbs.db
 replay_pid*
