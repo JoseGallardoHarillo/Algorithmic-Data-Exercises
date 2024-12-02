@@ -1,12 +1,12 @@
 /*
- * ejercicio2.h
+ * exercise_3.h
  *
  *  Created on: 27 oct. 2020
- *      Author: PC
+ *      Author: Jose Gallardo Harillo
  */
 
-#ifndef EJERCICIO2_H_
-#define EJERCICIO2_H_
+#ifndef EJERCICIO3_H_
+#define EJERCICIO3_H_
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,14 +16,7 @@
 #include <math.h>
 #include "../types/hash_table.h"
 
-//Ejercicio2
+hash_table ex_3(list l);
+void read_f3(const char* file, list* l);
 
-string ej2(int limite);
-
-
-//Para lectura del fichero
-
-list leer_f2(char* file);
-
-
-#endif /* EJERCICIO2_H_ */
+#endif /* EJERCICIO3_H_ */

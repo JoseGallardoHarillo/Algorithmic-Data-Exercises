@@ -1,12 +1,13 @@
 /*
- * ejercicio3.h
+ * exercise_1.h
  *
  *  Created on: 27 oct. 2020
- *      Author: PC
+ *      Author: Jose Gallardo Harillo
  */
 
-#ifndef EJERCICIO3_H_
-#define EJERCICIO3_H_
+#ifndef EJERCICIO1_H_
+#define EJERCICIO1_H_
+
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,12 +17,8 @@
 #include <math.h>
 #include "../types/hash_table.h"
 
-//Ejercicio 3
+list ex_1(list ll);
+void pre_read_f(list *l, char* caracter);
+list read_f(char* file);
 
-hash_table ej3(list l);
-
-//Para lectura del fichero
-
-punto convertir_a_punto(char* c);
-
-#endif /* EJERCICIO3_H_ */
+#endif /* EJERCICIO1_H_ */
