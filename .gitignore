@@ -41,11 +41,6 @@ debug/
 # IntelliJ IDEA
 .idea/
 
-# Eclipse
-.project
-.classpath
-.settings
-
 # NetBeans
 nbproject/
 
