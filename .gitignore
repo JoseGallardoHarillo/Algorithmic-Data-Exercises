@@ -34,6 +34,9 @@ Makefile
 makefile
 CMakeLists.txt
 
+# Ignorar carpeta debug
+debug/
+
 # IDE files
 # IntelliJ IDEA
 .idea/
