@@ -1,5 +1,5 @@
-#Iterative exercises
+# Iterative exercises
 
-##Exercise 1:
+## Exercise 1:
 
--ASASA
+- ASAS
