@@ -1,4 +1,4 @@
-# Iterative, Recursive and functional exercises (functional will be seen in the Java Version)
+# Iterative, Recursive and functional exercises
 
 ## Exercise 1:
 
