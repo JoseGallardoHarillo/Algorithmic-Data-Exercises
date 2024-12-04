@@ -3,14 +3,17 @@
 ## Exercise 1:
 
 * Input: A 2D array (matrix) of integers of size n x n, where n = 2^m, with m ≥ 1.
-* Output: The first position where A and B differ.
+* Output:
+
+  - True: if the four corners and the subarrays recursively meet the condition of having distinct integers.
+  - False: otherwise.
 
 ## Exercise 2:
 
 * Input:  Two numbers, a and b.
 * Output: Boolean indicating whether a is a multiple of b using only addition and subtraction.
-  - True: if the four corners and the subarrays recursively meet the condition of having distinct integers.
-  - False: otherwise.
+  
+
 
 ## Exercise 3:
 
