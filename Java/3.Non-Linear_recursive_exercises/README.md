@@ -15,10 +15,9 @@
   
 ## Exercise 3:
 
-* Input: An integer \( n \) for which we want to calculate the value of \( f_n \) based on the recurrence relation:  
- $f_n = 4f_{n-1} + f_{n-2} + f_{n-3}$, with initial values:  
-$f_2 = 1$, $f_1 = 1$, $f_0 = 2$.
-* Output: The value of \( f_n \) calculated using the given recurrence relation.
+* Input: An integer n for which we want to calculate the value of $f_n$ based on the recurrence relation:  
+ $f_n = 4f_{n-1} + f_{n-2} + f_{n-3}$, with initial values:  $f_2 = 1$, $f_1 = 1$, $f_0 = 2$.
+* Output: The value of $f_n$ calculated using the given recurrence relation.
 
 ## Exercise 4:
 
