@@ -7,10 +7,10 @@
 
 ## Exercise 2:
 
-* Input:  Two numbers, a and b
+* Input:  Two numbers, a and b.
 * Output: Boolean indicating whether a is a multiple of b using only addition and subtraction.
 
 ## Exercise 3:
 
-* Input: Two numbers, a (Long), and n (int)
-* Output: \(a^n\) taking its properties into account
+* Input: Two numbers, a (Long), and n (int).
+* Output: aⁿ taking its properties into account.
