@@ -21,6 +21,8 @@
 
 ## Exercise 4:
 
-* Input: Two numbers, a and b.
+* Input: $g(a,b)$, where the parameter are two numbers, a and b.
 * Output:
-  - a + $b^2$
+  - a + $b^2$ if a < 2 and b < 2
+  - $a^2$ + b if a < 2 or b < 2
+  - Otherwise, $g(a/2,b-1) + g(a/3,b-2) + g(a-2,b/4)$
