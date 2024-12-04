@@ -1,16 +1,23 @@
-# Non-Linear_recursive_exercises
+# Non-Linear Recursive Exercises
 
 ## Exercise 1:
 
-* Input: Two strings A and B of the same length, identical character by character up to a position and different from that position onward.
+* Input: A 2D array (matrix) of integers of size n x n, where n = 2^m, with m ≥ 1.
 * Output: The first position where A and B differ.
 
 ## Exercise 2:
 
 * Input:  Two numbers, a and b.
 * Output: Boolean indicating whether a is a multiple of b using only addition and subtraction.
+  - True: if the four corners and the subarrays recursively meet the condition of having distinct integers.
+  - False: otherwise.
 
 ## Exercise 3:
+
+* Input: Two numbers, a (Long), and n (int).
+* Output: aⁿ taking its properties into account.
+
+## Exercise 4:
 
 * Input: Two numbers, a (Long), and n (int).
 * Output: aⁿ taking its properties into account.
