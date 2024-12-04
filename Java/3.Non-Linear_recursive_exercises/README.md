@@ -10,17 +10,18 @@
 
 ## Exercise 2:
 
-* Input:  Two numbers, a and b.
-* Output: Boolean indicating whether a is a multiple of b using only addition and subtraction.
+* Input:  A sequence of integers, which can be both positive and negative.
+* Output: The maximum sum of a contiguous subsequence of the sequence.
   
-
-
 ## Exercise 3:
 
-* Input: Two numbers, a (Long), and n (int).
-* Output: aⁿ taking its properties into account.
+* Input: An integer \( n \) for which we want to calculate the value of \( f_n \) based on the recurrence relation:  
+  \( f_n = 4f_{n-1} + f_{n-2} + f_{n-3} \), with initial values:  
+  \( f_2 = 1 \), \( f_1 = 1 \), \( f_0 = 2 \).
+* Output: The value of \( f_n \) calculated using the given recurrence relation.
 
 ## Exercise 4:
 
-* Input: Two numbers, a (Long), and n (int).
-* Output: aⁿ taking its properties into account.
+* Input: Two numbers, a and b.
+* Output:
+  - a + $b^2$
