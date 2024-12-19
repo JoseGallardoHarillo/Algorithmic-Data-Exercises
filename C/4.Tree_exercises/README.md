@@ -36,5 +36,6 @@
 
 * Input: A tree Tree<E> n-ary, where each node contains an element of type E.
 * Output: A Map<Integer, List<E>> where each entry corresponds to a level in the tree.
+  
   - The key of each entry is the level number (an integer).
   - The value is a list of elements E representing the labels of nodes at that level that have an even number of children.
