@@ -1,28 +1,40 @@
-# Non-Linear Recursive Exercises
+# Tree Exercises
 
 ## Exercise 1:
 
-* Input: A 2D array (matrix) of integers of size n x n, where n = 2^m, with m ≥ 1.
+* Input: A binary tree of integers where each node has a label (integer value).
 * Output:
 
-  - True: if the four corners and the subarrays recursively meet the condition of having distinct integers.
+  - True: if for every node with two non-empty children, the node's label is equal to the sum of the labels of its two children.
   - False: otherwise.
 
 ## Exercise 2:
 
-* Input:  A sequence of integers, which can be both positive and negative.
-* Output: The maximum sum of a contiguous subsequence of the sequence.
+* Input:
   
+  - A binary tree of characters where each node has a label (character).
+  - A list of characters.
+    
+* Output:
+
+  - True: if there exists a path from the root to a leaf in the tree such that the path's sequence of node labels matches the given list.
+  - False: otherwise.
+    
 ## Exercise 3:
 
-* Input: An integer n for which we want to calculate the value of $f_n$ based on the recurrence relation:  
- $f_n = 4f_{n-1} + f_{n-2} + f_{n-3}$, with initial values:  $f_2 = 1$, $f_1 = 1$, $f_0 = 2$.
-* Output: The value of $f_n$ calculated using the given recurrence relation.
+* Input:
+  
+  - A tree Tree<E>, where each node contains an element of type E.
+  - A predicate function that takes an element of type E and returns a boolean value.
+
+* Output: A list List<Boolean> where the i-th element is
+  
+  - True: if all elements at level i of the tree satisfy the predicate.
+  - False: otherwise.
 
 ## Exercise 4:
 
-* Input: $g(a,b)$, where the parameter are two numbers, a and b.
-* Output:
-  - a + $b^2$ if a < 2 and b < 2
-  - $a^2$ + b if a < 2 or b < 2
-  - Otherwise, $g(a/2,b-1) + g(a/3,b-2) + g(a-2,b/4)$
+* Input: A tree Tree<E> n-ary, where each node contains an element of type E.
+* Output: A Map<Integer, List<E>> where each entry corresponds to a level in the tree.
+  - The key of each entry is the level number (an integer).
+  - The value is a list of elements E representing the labels of nodes at that level that have an even number of children.
