@@ -3,3 +3,5 @@ The following folders, which are used in the different exercises, come from "htt
 
 - DatosCompartidos
 - ParteComun
+- Solve
+- Grafos
