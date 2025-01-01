@@ -1,0 +1,24 @@
+strict graph G {
+  1 [ color="red" label="Grupo1" ];
+  2 [ color="yellow" label="Grupo2" ];
+  3 [ color="gray" label="Grupo3" ];
+  4 [ color="yellow" label="Grupo5" ];
+  5 [ color="red" label="Grupo4" ];
+  6 [ color="gray" label="Grupo6" ];
+  7 [ color="red" label="Grupo7" ];
+  8 [ color="yellow" label="Grupo9" ];
+  9 [ color="gray" label="Grupo8" ];
+  1 -- 2 [ color="black" label="" ];
+  2 -- 3 [ color="black" label="" ];
+  3 -- 1 [ color="black" label="" ];
+  3 -- 4 [ color="black" label="" ];
+  4 -- 1 [ color="black" label="" ];
+  2 -- 5 [ color="black" label="" ];
+  5 -- 6 [ color="black" label="" ];
+  6 -- 2 [ color="black" label="" ];
+  5 -- 4 [ color="black" label="" ];
+  4 -- 6 [ color="black" label="" ];
+  7 -- 8 [ color="black" label="" ];
+  9 -- 8 [ color="black" label="" ];
+  7 -- 9 [ color="black" label="" ];
+}
