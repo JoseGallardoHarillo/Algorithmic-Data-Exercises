@@ -29,5 +29,5 @@
 * Output:
   
   - a: A list of all courses in an order that satisfies the given prerequisites.
-  - b: The set of courses that can be taken without any prerequisites. Display the graph by highlighting these courses.
-  - Given a set of courses that a student has passed, returns a set of courses that the student can take next year. (Display the graph by highlighting the courses from both sets with two different colors.)
+  - b: The set of courses that can be taken without any prerequisites. (Display the graph by highlighting these courses.)
+  - c: Given a set of courses that a student has passed, returns a set of courses that the student can take next year. (Display the graph by highlighting the courses from both sets with two different colors.)
