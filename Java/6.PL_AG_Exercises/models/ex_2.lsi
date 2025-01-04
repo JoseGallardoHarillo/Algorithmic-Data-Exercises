@@ -1,0 +1,21 @@
+head section
+
+Integer getNLawyer()
+Integer getNC()
+Integer getHour(Integer i, Integer j)
+
+Integer m = getNLawyer()
+Integer n = getNC()+1
+
+goal section
+
+min y[0]
+
+constraints section
+
+sum(getHour(i,j) x[i,j], j in 1 .. n) -y[0]<=0, i in 0 .. m
+sum(x[i,j], i in 0 .. m) = 1, j in 1 .. n
+
+bin
+
+x[i,j], i in 0 .. m, j in 1 .. n

@@ -1,0 +1,20 @@
+head section
+
+Integer geSize_S()
+Integer getNumber(Integer i)
+
+Integer m = geSize_S()
+
+goal section
+
+min sum(getNumber(i) x[i,0], i in 0 .. m)
+
+constraints section
+
+sum(x[i,j], j in 0 .. 3)=1, i in 0 .. m 
+sum(getNumber(i) x[i,0], i in 0 .. m)-sum(getNumber(i) x[i,1], i in 0 .. m) = 0
+sum(getNumber(i) x[i,1], i in 0 .. m)-sum(getNumber(i) x[i,2], i in 0 .. m) = 0
+
+bin
+
+x[i,j], i in 0 .. m, j in 0 .. 3

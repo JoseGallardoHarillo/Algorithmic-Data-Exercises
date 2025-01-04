@@ -1,0 +1,22 @@
+head section
+
+Integer getNP()
+Double getValue(Integer i)
+Integer getNF()
+Integer functionalityContained(Integer i,Integer j)
+
+
+Integer m = getNP()
+Integer n = getNF()
+
+goal section
+
+min sum(getValor(i) x[i], i in 0 .. m)
+
+constraints section
+
+sum(functionalityContained(i,j) x[i], i in 0 .. m) >=1, j in 0 .. n
+
+bin 
+
+x[i], i in 0 .. m

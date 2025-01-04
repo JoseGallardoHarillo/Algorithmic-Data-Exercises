@@ -1,0 +1,23 @@
+head section
+
+Integer getNStudents()
+Integer getNG()
+Double getAfinity(Integer i, Integer j)
+
+Integer m = getNStudents()
+Integer n = getNG()+1
+Integer getMeanStudents()
+
+
+goal section
+
+max sum(getAfinity(i,j) x[i,j], i in 0 .. m, j in 1 .. n)
+
+constraints section
+
+sum(x[i,j],j in 1 .. n) = 1, i in 0 .. m
+sum(x[i,j],i in 0 .. m | getAfinity(i,j) > 0) = getMeanStudents(), j in 1 .. n
+
+bin
+
+x[i,j], i in 0 .. m, j in 1 .. n
